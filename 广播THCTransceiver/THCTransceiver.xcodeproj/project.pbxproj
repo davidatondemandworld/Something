@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA28A331760CF090091064A /* NSError+Extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28A321760CF090091064A /* NSError+Extentions.m */; };
+		CBAA1BC9175F6A6D00AEB40B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAA1BC8175F6A6D00AEB40B /* Foundation.framework */; };
+		CBAA1BCC175F6A6D00AEB40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1BCB175F6A6D00AEB40B /* main.m */; };
+		CBAA1BD0175F6A6D00AEB40B /* THCTransceiver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBAA1BCF175F6A6D00AEB40B /* THCTransceiver.1 */; };
+		CBAA1BD8175F6BC200AEB40B /* THCTransceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1BD7175F6BC200AEB40B /* THCTransceiver.m */; };
+		CBAA1BDC175F70D600AEB40B /* THCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1BDB175F70D600AEB40B /* THCMessage.m */; };
+		CBAA1BE3175F7F1E00AEB40B /* THCIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1BE2175F7F1E00AEB40B /* THCIPAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBAA1BC2175F6A6D00AEB40B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CBAA1BD0175F6A6D00AEB40B /* THCTransceiver.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBA28A311760CF090091064A /* NSError+Extentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Extentions.h"; sourceTree = "<group>"; };
+		CBA28A321760CF090091064A /* NSError+Extentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Extentions.m"; sourceTree = "<group>"; };
+		CBAA1BC4175F6A6D00AEB40B /* THCTransceiver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = THCTransceiver; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAA1BC8175F6A6D00AEB40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBAA1BCB175F6A6D00AEB40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBAA1BCE175F6A6D00AEB40B /* THCTransceiver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THCTransceiver-Prefix.pch"; sourceTree = "<group>"; };
+		CBAA1BCF175F6A6D00AEB40B /* THCTransceiver.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = THCTransceiver.1; sourceTree = "<group>"; };
+		CBAA1BD6175F6BC200AEB40B /* THCTransceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCTransceiver.h; sourceTree = "<group>"; };
+		CBAA1BD7175F6BC200AEB40B /* THCTransceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCTransceiver.m; sourceTree = "<group>"; };
+		CBAA1BDA175F70D600AEB40B /* THCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCMessage.h; sourceTree = "<group>"; };
+		CBAA1BDB175F70D600AEB40B /* THCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCMessage.m; sourceTree = "<group>"; };
+		CBAA1BE1175F7F1E00AEB40B /* THCIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCIPAddress.h; sourceTree = "<group>"; };
+		CBAA1BE2175F7F1E00AEB40B /* THCIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCIPAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBAA1BC1175F6A6D00AEB40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA1BC9175F6A6D00AEB40B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAA1BB9175F6A6D00AEB40B = {
+			isa = PBXGroup;
+			children = (
+				CBAA1BCA175F6A6D00AEB40B /* THCTransceiver */,
+				CBAA1BC7175F6A6D00AEB40B /* Frameworks */,
+				CBAA1BC5175F6A6D00AEB40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBAA1BC5175F6A6D00AEB40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA1BC4175F6A6D00AEB40B /* THCTransceiver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBAA1BC7175F6A6D00AEB40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA1BC8175F6A6D00AEB40B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBAA1BCA175F6A6D00AEB40B /* THCTransceiver */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28A311760CF090091064A /* NSError+Extentions.h */,
+				CBA28A321760CF090091064A /* NSError+Extentions.m */,
+				CBAA1BCB175F6A6D00AEB40B /* main.m */,
+				CBAA1BCF175F6A6D00AEB40B /* THCTransceiver.1 */,
+				CBAA1BCD175F6A6D00AEB40B /* Supporting Files */,
+				CBAA1BD6175F6BC200AEB40B /* THCTransceiver.h */,
+				CBAA1BD7175F6BC200AEB40B /* THCTransceiver.m */,
+				CBAA1BDA175F70D600AEB40B /* THCMessage.h */,
+				CBAA1BDB175F70D600AEB40B /* THCMessage.m */,
+				CBAA1BE1175F7F1E00AEB40B /* THCIPAddress.h */,
+				CBAA1BE2175F7F1E00AEB40B /* THCIPAddress.m */,
+			);
+			path = THCTransceiver;
+			sourceTree = "<group>";
+		};
+		CBAA1BCD175F6A6D00AEB40B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA1BCE175F6A6D00AEB40B /* THCTransceiver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBAA1BC3175F6A6D00AEB40B /* THCTransceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAA1BD3175F6A6D00AEB40B /* Build configuration list for PBXNativeTarget "THCTransceiver" */;
+			buildPhases = (
+				CBAA1BC0175F6A6D00AEB40B /* Sources */,
+				CBAA1BC1175F6A6D00AEB40B /* Frameworks */,
+				CBAA1BC2175F6A6D00AEB40B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THCTransceiver;
+			productName = THCTransceiver;
+			productReference = CBAA1BC4175F6A6D00AEB40B /* THCTransceiver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBAA1BBB175F6A6D00AEB40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andy Tung(tanghuacheng.cn)";
+			};
+			buildConfigurationList = CBAA1BBE175F6A6D00AEB40B /* Build configuration list for PBXProject "THCTransceiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBAA1BB9175F6A6D00AEB40B;
+			productRefGroup = CBAA1BC5175F6A6D00AEB40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBAA1BC3175F6A6D00AEB40B /* THCTransceiver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBAA1BC0175F6A6D00AEB40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA1BCC175F6A6D00AEB40B /* main.m in Sources */,
+				CBAA1BD8175F6BC200AEB40B /* THCTransceiver.m in Sources */,
+				CBAA1BDC175F70D600AEB40B /* THCMessage.m in Sources */,
+				CBAA1BE3175F7F1E00AEB40B /* THCIPAddress.m in Sources */,
+				CBA28A331760CF090091064A /* NSError+Extentions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBAA1BD1175F6A6D00AEB40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBAA1BD2175F6A6D00AEB40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBAA1BD4175F6A6D00AEB40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THCTransceiver/THCTransceiver-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBAA1BD5175F6A6D00AEB40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THCTransceiver/THCTransceiver-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBAA1BBE175F6A6D00AEB40B /* Build configuration list for PBXProject "THCTransceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA1BD1175F6A6D00AEB40B /* Debug */,
+				CBAA1BD2175F6A6D00AEB40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAA1BD3175F6A6D00AEB40B /* Build configuration list for PBXNativeTarget "THCTransceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA1BD4175F6A6D00AEB40B /* Debug */,
+				CBAA1BD5175F6A6D00AEB40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBAA1BBB175F6A6D00AEB40B /* Project object */;
+}

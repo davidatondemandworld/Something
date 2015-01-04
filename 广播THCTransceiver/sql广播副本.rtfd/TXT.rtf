@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg936\cocoartf1187
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red118\green15\blue80;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww37840\viewh18580\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs48 \cf0 Last login: Wed Oct 30 16:04:25 on ttys002\
+shinsenkunpengmatoiMac-230:~ apple$ cd /Users/apple/Library/Developer/Xcode/DerivedData/THCTransceiver-ckiuivpptdcclgheopbomulutdzo/Build/Products/Debug \
+shinsenkunpengmatoiMac-230:Debug apple$ ./THCTransceiver\
+\
+Format: transceiver <name> <ip> <port>\
+Use ip 239.x.x.x for multicast,or 192.x.x.x for bind\
+shinsenkunpengmatoiMac-230:Debug apple$ ./THCTransceiver yuyong1 239.1.1.1 8585    
+\f1 \'a3\'af\'a3\'af\'d5\'e2\'c0\'ef\'ca\'c7\'d7\'d4\'bc\'ba\'c9\'e8\'d6\'c3\'b5\'c4\'b1\'d8\'d0\'eb\'d2\'d4239\'ce\'aa\'bf\'aa\'cd\'b7\'b5\'c4ip\'a3\'ac\'ba\'f3\'c3\'e6\'cb\'e6\'d2\'e2\'a3\'ac\'b2\'bb\'b9\'fd\'b1\'f0\'c8\'cb\'bd\'f8\'c8\'eb\'d7\'e9\'b1\'d8\'d0\'eb\'b8\'fa\'c4\'e3\'c9\'e8\'d6\'c3\'b5\'c4\'d2\'bb\'d1\'f9\'a3\'ac\'b6\'cb\'bf\'da\'cb\'e6\'d2\'e2\'a3\'ac\'b1\'f0\'c8\'cb\'d2\'b2\'d2\'aa\'b8\'fa\'d7\'c5\'d2\'bb\'d1\'f9\'a1\'a3
+\f0 \
+2013-10-30 16:07:28.499 THCTransceiver[286:707] socket success\
+2013-10-30 16:07:28.501 THCTransceiver[286:707] bind success\
+\
+Input ip message(format:<message type> <message content> <target ip>)\
+	message type(0x00:UNKNOW,0x10:QUERY,0x20:IDENTITY,0x30:ONLINE,0x40:OFFLINE,0x50:TEXT)\
+	message type(0:UNKNOW,16:QUERY,32:IDENTITY,48:ONLINE,64:OFFLINE,80:TEXT)  
+\f1 \'a3\'af\'a3\'af
+\f0 48
+\f1 \'b1\'ed\'ca\'be\'c9\'cf\'cf\'df
+\f0 \
+2013-10-30 16:07:28.502 THCTransceiver[286:707] receive working\
+48 owei 239.1.1.1    
+\f1 \'a3\'af\'a3\'af\'d5\'e2\'c0\'ef\'ca\'c7\'cf\'f2\'d7\'e9\'c0\'ef\'b7\'a2\'cb\'cd\'d0\'c5\'cf\'a2
+\f0 \
+2013-10-30 16:08:21.410 THCTransceiver[286:1f03] will send type:0x30;content:owei\
+\
+Input ip message(format:<message type> <message content> <target ip>)\
+	message type(0x00:UNKNOW,0x10:QUERY,0x20:IDENTITY,0x30:ONLINE,0x40:OFFLINE,0x50:TEXT)\
+	message type(0:UNKNOW,16:QUERY,32:IDENTITY,48:ONLINE,64:OFFLINE,80:TEXT)\
+2013-10-30 16:08:21.456 THCTransceiver[286:707]  from address:192.168.80.143 , port:8585\
+2013-10-30 16:08:21.457 THCTransceiver[286:707] receivedMessage:type:0x30;content:yuyong1 from:192.168.80.143:8585  
+\f1 \'a3\'af\'a3\'af\'d5\'e2\'c0\'ef\'ca\'c7\'cf\'f2\'c4\'b3\'cc\'a8\'c1\'ac\'bd\'d3\'b5\'c4\'b5\'e7\'c4\'d4\'b7\'a2\'d0\'c5\'cf\'a2\'a1\'a3
+\f0 \
+80 jkslf 192.168.80.205\
+2013-10-30 16:09:49.536 THCTransceiver[286:1f03] will send type:0x50;content:jkslf\
+\
+Input ip message(format:<message type> <message content> <target ip>)\
+	message type(0x00:UNKNOW,0x10:QUERY,0x20:IDENTITY,0x30:ONLINE,0x40:OFFLINE,0x50:TEXT)\
+	message type(0:UNKNOW,16:QUERY,32:IDENTITY,48:ONLINE,64:OFFLINE,80:TEXT)\
+2013-10-30 16:10:08.985 THCTransceiver[286:707] woshidengyiyuan from address:192.168.80.205 , port:8585\
+2013-10-30 16:10:08.986 THCTransceiver[286:707] receivedMessage:type:0x50;content:woshidengyiyuan\
+
+\f1 \'a1\'a2
+\f0 \
+
+\f1 \'a3\'af\'a3\'af\'d5\'e2\'c0\'ef\'ca\'c7\'cf\'f2\'c4\'b3\'cc\'a8\'c1\'ac\'bd\'d3\'b5\'c4\'b5\'e7\'c4\'d4\'b7\'a2\'d0\'c5\'cf\'a2\'a1\'a3
+\f0 \
+\
+80 iowejo  239.1.1.1\
+2013-10-30 16:20:47.336 THCTransceiver[286:1f03] will send type:0x50;content:iowejo\
+ 
+\f1 \'a3\'af\'a3\'af\'d5\'e2\'c0\'ef\'ca\'c7\'cf\'f2\'d7\'e9\'c0\'ef\'b7\'a2\'cb\'cd\'d0\'c5\'cf\'a2
+\f0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf0 \'d5\'e2\'c0\'ef\'ca\'c7\'b9\'e3\'b2\'a5\'c0\'cf\'ca\'a6\'b7\'e2\'d7\'b0\'b5\'c4\'d2\'bb\'b8\'f6\'c0\'e0\'a3\'ac\'d5\'e2\'c0\'ef\'ca\'c7\'c0\'cf\'ca\'a6\'b7\'e2\'d7\'aa\'b5\'c4\'d2\'bb\'b8\'f6\'c0\'e0\'bf\'e2\'a3\'ac
+\f2\fs60 \CocoaLigature0 THCTransceiver
+\f1 \'ca\'c7\'d6\'f7\'d2\'aa\'b5\'c4\'c0\'e0\'a3\'ac\'c0\'ef\'c3\'e6\'d3\'d0\'c8\'fd\'b8\'f6\'b7\'bd\'b7\'a8
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf0 \'a3\'ac
+\f2 - (\cf2 id\cf0 ) initWithPort:(\cf2 short\cf0 )port;\
+\pard\tx866\pardeftab866\pardirnatural
+\cf0 - (\cf2 id\cf0 ) initWithPort:(\cf2 short\cf0 )port multicastIP:(NSString *) ip;\
+- (\cf2 id\cf0 ) initWithPort:(\cf2 short\cf0 )port ip:(NSString *) ip;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf0 \'b5\'da\'d2\'bb\'b8\'f6\'c9\'e8\'d6\'c3\'b6\'cb\'bf\'da\'a3\'ac\'b5\'da\'b6\'fe\'b8\'f6\'ca\'c7\'b9\'e3\'b2\'a5\'b6\'e0\'c8\'cb\'c1\'ac\'b3\'c9\'d2\'bb\'b8\'f6\'d7\'e9\'bc\'b4\'d2\'bb\'b6\'d4\'b6\'e0\'a3\'ac\'b5\'da\'c8\'fd\'b8\'f6\'d2\'bb\'b6\'d4\'d2\'bb\'c1\'ac\'bd\'d3\'a3\'ac}
