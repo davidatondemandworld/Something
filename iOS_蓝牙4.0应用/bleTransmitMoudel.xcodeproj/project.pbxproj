@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634BB15815CFB35300AFB083 /* bleShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB15615CFB35300AFB083 /* bleShared.m */; };
+		63C0E69915D871EB002386F3 /* bluetooth4.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C0E69715D871EB002386F3 /* bluetooth4.0.png */; };
+		63C0E69A15D871EB002386F3 /* rfstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C0E69815D871EB002386F3 /* rfstar.png */; };
+		63C0E6A515D874F4002386F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0E6A415D874F4002386F3 /* MessageUI.framework */; };
+		63F8C66615CF6D1200E83266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8C66515CF6D1200E83266 /* UIKit.framework */; };
+		63F8C66815CF6D1200E83266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8C66715CF6D1200E83266 /* Foundation.framework */; };
+		63F8C66A15CF6D1200E83266 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8C66915CF6D1200E83266 /* CoreGraphics.framework */; };
+		63F8C67015CF6D1200E83266 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C66E15CF6D1200E83266 /* InfoPlist.strings */; };
+		63F8C67215CF6D1200E83266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8C67115CF6D1200E83266 /* main.m */; };
+		63F8C67615CF6D1200E83266 /* bleTransmitMoudelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8C67515CF6D1200E83266 /* bleTransmitMoudelAppDelegate.m */; };
+		63F8C67915CF6D1200E83266 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C67715CF6D1200E83266 /* MainStoryboard.storyboard */; };
+		63F8C67C15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8C67B15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.m */; };
+		63F8C67E15CF6D1300E83266 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C67D15CF6D1300E83266 /* first.png */; };
+		63F8C68015CF6D1300E83266 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C67F15CF6D1300E83266 /* first@2x.png */; };
+		63F8C68315CF6D1300E83266 /* bleTransmitMoudelSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8C68215CF6D1300E83266 /* bleTransmitMoudelSecondViewController.m */; };
+		63F8C68515CF6D1300E83266 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C68415CF6D1300E83266 /* second.png */; };
+		63F8C68715CF6D1300E83266 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C68615CF6D1300E83266 /* second@2x.png */; };
+		63F8C68E15CF6D5D00E83266 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8C68D15CF6D5D00E83266 /* CoreBluetooth.framework */; };
+		63F8C69415CF6D8A00E83266 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C69015CF6D8A00E83266 /* Default.png */; };
+		63F8C69515CF6D8A00E83266 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C69115CF6D8A00E83266 /* icon.png */; };
+		63F8C69615CF6D8A00E83266 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C69215CF6D8A00E83266 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		634BB15515CFB35300AFB083 /* bleShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bleShared.h; path = BLE/bleShared.h; sourceTree = "<group>"; };
+		634BB15615CFB35300AFB083 /* bleShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bleShared.m; path = BLE/bleShared.m; sourceTree = "<group>"; };
+		634BB15715CFB35300AFB083 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = BLE/BLEDefines.h; sourceTree = "<group>"; };
+		63C0E69715D871EB002386F3 /* bluetooth4.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth4.0.png; sourceTree = SOURCE_ROOT; };
+		63C0E69815D871EB002386F3 /* rfstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfstar.png; sourceTree = SOURCE_ROOT; };
+		63C0E6A415D874F4002386F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		63C0E6A615D8755F002386F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		63C0E6A715D8755F002386F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		63F8C66115CF6D1200E83266 /* bleTransmitMoudel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleTransmitMoudel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8C66515CF6D1200E83266 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63F8C66715CF6D1200E83266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63F8C66915CF6D1200E83266 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F8C66D15CF6D1200E83266 /* bleTransmitMoudel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bleTransmitMoudel-Info.plist"; sourceTree = "<group>"; };
+		63F8C66F15CF6D1200E83266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F8C67115CF6D1200E83266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F8C67315CF6D1200E83266 /* bleTransmitMoudel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bleTransmitMoudel-Prefix.pch"; sourceTree = "<group>"; };
+		63F8C67415CF6D1200E83266 /* bleTransmitMoudelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bleTransmitMoudelAppDelegate.h; sourceTree = "<group>"; };
+		63F8C67515CF6D1200E83266 /* bleTransmitMoudelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleTransmitMoudelAppDelegate.m; sourceTree = "<group>"; };
+		63F8C67815CF6D1200E83266 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63F8C67A15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bleTransmitMoudelFirstViewController.h; sourceTree = "<group>"; };
+		63F8C67B15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleTransmitMoudelFirstViewController.m; sourceTree = "<group>"; };
+		63F8C67D15CF6D1300E83266 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		63F8C67F15CF6D1300E83266 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		63F8C68115CF6D1300E83266 /* bleTransmitMoudelSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bleTransmitMoudelSecondViewController.h; sourceTree = "<group>"; };
+		63F8C68215CF6D1300E83266 /* bleTransmitMoudelSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleTransmitMoudelSecondViewController.m; sourceTree = "<group>"; };
+		63F8C68415CF6D1300E83266 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		63F8C68615CF6D1300E83266 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		63F8C68D15CF6D5D00E83266 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		63F8C69015CF6D8A00E83266 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		63F8C69115CF6D8A00E83266 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		63F8C69215CF6D8A00E83266 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F8C65E15CF6D1200E83266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0E6A515D874F4002386F3 /* MessageUI.framework in Frameworks */,
+				63F8C68E15CF6D5D00E83266 /* CoreBluetooth.framework in Frameworks */,
+				63F8C66615CF6D1200E83266 /* UIKit.framework in Frameworks */,
+				63F8C66815CF6D1200E83266 /* Foundation.framework in Frameworks */,
+				63F8C66A15CF6D1200E83266 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634BB15415CFB33300AFB083 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				634BB15515CFB35300AFB083 /* bleShared.h */,
+				634BB15615CFB35300AFB083 /* bleShared.m */,
+				634BB15715CFB35300AFB083 /* BLEDefines.h */,
+			);
+			name = BLE;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63F8C65615CF6D1200E83266 = {
+			isa = PBXGroup;
+			children = (
+				63F8C66B15CF6D1200E83266 /* bleTransmitMoudel */,
+				63F8C66415CF6D1200E83266 /* Frameworks */,
+				63F8C66215CF6D1200E83266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F8C66215CF6D1200E83266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F8C66115CF6D1200E83266 /* bleTransmitMoudel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F8C66415CF6D1200E83266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C0E6A415D874F4002386F3 /* MessageUI.framework */,
+				63F8C68D15CF6D5D00E83266 /* CoreBluetooth.framework */,
+				63F8C66515CF6D1200E83266 /* UIKit.framework */,
+				63F8C66715CF6D1200E83266 /* Foundation.framework */,
+				63F8C66915CF6D1200E83266 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63F8C66B15CF6D1200E83266 /* bleTransmitMoudel */ = {
+			isa = PBXGroup;
+			children = (
+				634BB15415CFB33300AFB083 /* BLE */,
+				63F8C67415CF6D1200E83266 /* bleTransmitMoudelAppDelegate.h */,
+				63F8C67515CF6D1200E83266 /* bleTransmitMoudelAppDelegate.m */,
+				63F8C67715CF6D1200E83266 /* MainStoryboard.storyboard */,
+				63F8C67A15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.h */,
+				63F8C67B15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.m */,
+				63F8C68115CF6D1300E83266 /* bleTransmitMoudelSecondViewController.h */,
+				63F8C68215CF6D1300E83266 /* bleTransmitMoudelSecondViewController.m */,
+				63F8C66C15CF6D1200E83266 /* Supporting Files */,
+			);
+			path = bleTransmitMoudel;
+			sourceTree = "<group>";
+		};
+		63F8C66C15CF6D1200E83266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C0E69715D871EB002386F3 /* bluetooth4.0.png */,
+				63C0E69815D871EB002386F3 /* rfstar.png */,
+				63F8C67D15CF6D1300E83266 /* first.png */,
+				63F8C67F15CF6D1300E83266 /* first@2x.png */,
+				63F8C68415CF6D1300E83266 /* second.png */,
+				63F8C68615CF6D1300E83266 /* second@2x.png */,
+				63F8C69015CF6D8A00E83266 /* Default.png */,
+				63F8C69115CF6D8A00E83266 /* icon.png */,
+				63F8C69215CF6D8A00E83266 /* logo.png */,
+				63F8C66D15CF6D1200E83266 /* bleTransmitMoudel-Info.plist */,
+				63F8C66E15CF6D1200E83266 /* InfoPlist.strings */,
+				63F8C67115CF6D1200E83266 /* main.m */,
+				63F8C67315CF6D1200E83266 /* bleTransmitMoudel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F8C66015CF6D1200E83266 /* bleTransmitMoudel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8C68A15CF6D1300E83266 /* Build configuration list for PBXNativeTarget "bleTransmitMoudel" */;
+			buildPhases = (
+				63F8C65D15CF6D1200E83266 /* Sources */,
+				63F8C65E15CF6D1200E83266 /* Frameworks */,
+				63F8C65F15CF6D1200E83266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bleTransmitMoudel;
+			productName = bleTransmitMoudel;
+			productReference = 63F8C66115CF6D1200E83266 /* bleTransmitMoudel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F8C65815CF6D1200E83266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bleTransmitMoudel;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					63F8C66015CF6D1200E83266 = {
+						DevelopmentTeam = 3ZDFEQ84FS;
+					};
+				};
+			};
+			buildConfigurationList = 63F8C65B15CF6D1200E83266 /* Build configuration list for PBXProject "bleTransmitMoudel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63F8C65615CF6D1200E83266;
+			productRefGroup = 63F8C66215CF6D1200E83266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F8C66015CF6D1200E83266 /* bleTransmitMoudel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F8C65F15CF6D1200E83266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8C67015CF6D1200E83266 /* InfoPlist.strings in Resources */,
+				63F8C67915CF6D1200E83266 /* MainStoryboard.storyboard in Resources */,
+				63F8C67E15CF6D1300E83266 /* first.png in Resources */,
+				63F8C68015CF6D1300E83266 /* first@2x.png in Resources */,
+				63F8C68515CF6D1300E83266 /* second.png in Resources */,
+				63F8C68715CF6D1300E83266 /* second@2x.png in Resources */,
+				63F8C69415CF6D8A00E83266 /* Default.png in Resources */,
+				63F8C69515CF6D8A00E83266 /* icon.png in Resources */,
+				63F8C69615CF6D8A00E83266 /* logo.png in Resources */,
+				63C0E69915D871EB002386F3 /* bluetooth4.0.png in Resources */,
+				63C0E69A15D871EB002386F3 /* rfstar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F8C65D15CF6D1200E83266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8C67215CF6D1200E83266 /* main.m in Sources */,
+				63F8C67615CF6D1200E83266 /* bleTransmitMoudelAppDelegate.m in Sources */,
+				63F8C67C15CF6D1200E83266 /* bleTransmitMoudelFirstViewController.m in Sources */,
+				63F8C68315CF6D1300E83266 /* bleTransmitMoudelSecondViewController.m in Sources */,
+				634BB15815CFB35300AFB083 /* bleShared.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63F8C66E15CF6D1200E83266 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8C66F15CF6D1200E83266 /* en */,
+				63C0E6A715D8755F002386F3 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63F8C67715CF6D1200E83266 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8C67815CF6D1200E83266 /* en */,
+				63C0E6A615D8755F002386F3 /* zh-Hans */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F8C68815CF6D1300E83266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63F8C68915CF6D1300E83266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F8C68B15CF6D1300E83266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleTransmitMoudel/bleTransmitMoudel-Prefix.pch";
+				INFOPLIST_FILE = "bleTransmitMoudel/bleTransmitMoudel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BBDAF46C-DD10-4A8D-8084-8668F1235A2A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63F8C68C15CF6D1300E83266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bleTransmitMoudel/bleTransmitMoudel-Prefix.pch";
+				INFOPLIST_FILE = "bleTransmitMoudel/bleTransmitMoudel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BBDAF46C-DD10-4A8D-8084-8668F1235A2A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F8C65B15CF6D1200E83266 /* Build configuration list for PBXProject "bleTransmitMoudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8C68815CF6D1300E83266 /* Debug */,
+				63F8C68915CF6D1300E83266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8C68A15CF6D1300E83266 /* Build configuration list for PBXNativeTarget "bleTransmitMoudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8C68B15CF6D1300E83266 /* Debug */,
+				63F8C68C15CF6D1300E83266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F8C65815CF6D1200E83266 /* Project object */;
+}
