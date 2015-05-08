@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188A4F37151C608F0028FD45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188A4F36151C608F0028FD45 /* Foundation.framework */; };
+		188A4F3A151C608F0028FD45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A4F39151C608F0028FD45 /* main.m */; };
+		CBB509FC15EB5693009ED917 /* ReceiveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB509FB15EB5693009ED917 /* ReceiveOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		188A4F30151C608F0028FD45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		188A4F32151C608F0028FD45 /* SocketServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SocketServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		188A4F36151C608F0028FD45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188A4F39151C608F0028FD45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188A4F3C151C608F0028FD45 /* SocketServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketServer-Prefix.pch"; sourceTree = "<group>"; };
+		188A4F3D151C608F0028FD45 /* SocketServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SocketServer.1; sourceTree = "<group>"; };
+		CBB509FA15EB5693009ED917 /* ReceiveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveOperation.h; sourceTree = "<group>"; };
+		CBB509FB15EB5693009ED917 /* ReceiveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188A4F2F151C608F0028FD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A4F37151C608F0028FD45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188A4F27151C608F0028FD45 = {
+			isa = PBXGroup;
+			children = (
+				188A4F38151C608F0028FD45 /* SocketServer */,
+				188A4F35151C608F0028FD45 /* Frameworks */,
+				188A4F33151C608F0028FD45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188A4F33151C608F0028FD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188A4F32151C608F0028FD45 /* SocketServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188A4F35151C608F0028FD45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188A4F36151C608F0028FD45 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188A4F38151C608F0028FD45 /* SocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				188A4F39151C608F0028FD45 /* main.m */,
+				188A4F3D151C608F0028FD45 /* SocketServer.1 */,
+				188A4F3B151C608F0028FD45 /* Supporting Files */,
+				CBB509FA15EB5693009ED917 /* ReceiveOperation.h */,
+				CBB509FB15EB5693009ED917 /* ReceiveOperation.m */,
+			);
+			path = SocketServer;
+			sourceTree = "<group>";
+		};
+		188A4F3B151C608F0028FD45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188A4F3C151C608F0028FD45 /* SocketServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188A4F31151C608F0028FD45 /* SocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188A4F40151C608F0028FD45 /* Build configuration list for PBXNativeTarget "SocketServer" */;
+			buildPhases = (
+				188A4F2E151C608F0028FD45 /* Sources */,
+				188A4F2F151C608F0028FD45 /* Frameworks */,
+				188A4F30151C608F0028FD45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketServer;
+			productName = SocketServer;
+			productReference = 188A4F32151C608F0028FD45 /* SocketServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188A4F29151C608F0028FD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 188A4F2C151C608F0028FD45 /* Build configuration list for PBXProject "SocketServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188A4F27151C608F0028FD45;
+			productRefGroup = 188A4F33151C608F0028FD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188A4F31151C608F0028FD45 /* SocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188A4F2E151C608F0028FD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A4F3A151C608F0028FD45 /* main.m in Sources */,
+				CBB509FC15EB5693009ED917 /* ReceiveOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188A4F3E151C608F0028FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		188A4F3F151C608F0028FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		188A4F41151C608F0028FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketServer/SocketServer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188A4F42151C608F0028FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketServer/SocketServer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188A4F2C151C608F0028FD45 /* Build configuration list for PBXProject "SocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A4F3E151C608F0028FD45 /* Debug */,
+				188A4F3F151C608F0028FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188A4F40151C608F0028FD45 /* Build configuration list for PBXNativeTarget "SocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A4F41151C608F0028FD45 /* Debug */,
+				188A4F42151C608F0028FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188A4F29151C608F0028FD45 /* Project object */;
+}

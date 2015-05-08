@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SocketClient' target in the 'SocketClient' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
