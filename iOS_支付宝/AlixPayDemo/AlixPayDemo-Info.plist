@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>Partner</key>
+	<string>2088101568358171</string>
+	<key>Seller</key>
+	<string>alipay-test09@alipay.com</string>
+	<key>RSA private key</key>
+	<string>MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANEliZbjWsu4KpsHAFAMAJoa9x5nfS8t0+xhEAvQ5qheFPv+rEwRne8Mr/D+a3uH3iEz7890kGp6lnPrLKhvSWbKXJmZnPWjYnyVnANL48hQZfvxclUF/Qkxfe2EIttZbuM8nIOIyh5Dfx398kWHVS6TPZrda/VJm9C3cph/b0a3AgMBAAECgYAtQJX4k9C9a2esi2NB7pbiwRre9T1cy+mip421QMnnfBPGQmA9RUKKyo/28NWIsOka/gXROUNWBpgvFJ9hAlM7CjcKzqTV4ph0IQ5XSo0TWvYaJq9aJAelCH+RMa0/If58AIOrJ+qGYESRO4386xAhxXQb89RpTBEIy3M0LxtlIQJBAO7rCW1RXSRtT7Aj5Fb4FmOhlukqL7yLNlhuz2KY+axcyFqzihM39zDB1sF7XYN94b21elLAZntJkufzW67Gk1sCQQDgGZZs3IU5lvVokOJa
+TZVTynDKAYFMlv6t76yD7DkRtVh/2U9UZOew1fLQvBRDcWP8flpQdXLsLQkV1XfYP8TVAkEAoK5aDLdn2RPbQC8jZoo7JI6MnAvPRxKpXhhISZtwb0eHR9jvx7Uf/h6f
+fEinv8NtitT+i6DyS4BT2MOGqajLeQJAFHVhjTiolPRaHRy0/Wd9zXN6zoZKppJWV8y8pCKJpzs2BB3zpxG7MSKnEzVIaEvOw/tJBXVjc3o9DRg646wWrQJBAOBeQVevEq1m8dmEgiQDeajUolJeItwTw3eksrH8CypEWOgGsIdafGCWexSBs68+3zs2mR32cPquPmT99HSoVUI=</string>
+	<key>RSA public key</key>
+	<string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPVyp1OBahVYt/pbVsT1DAzbZNRKREqQDz2S18wM1h+P5Of8XNxTTtqTE12Tgriij7WfIUQtnBq/dJaDx5OJ7MOubKvWEzdhJUHCWCnKmI5e/UFrDj169mRVO3k+HeILRnKUiFuRcAFiyVMKnTtp2/GYcvt+tHNCIcfN1NKFofFwIDAQAB</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>AlixPayDemo</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

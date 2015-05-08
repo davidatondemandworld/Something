@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/rsa.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/asn1.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/e_os2.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/opensslconf.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/bio.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/crypto.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/stack.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/safestack.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/opensslv.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/ossl_typ.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/symhacks.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/bn.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/pem.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/evp.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/objects.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/obj_mac.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/x509.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/buffer.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/ec.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/ecdsa.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/ecdh.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/dsa.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/dh.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/sha.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/x509_vfy.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/lhash.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/pkcs7.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/pem2.h \
+  /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/openssl/md5.h

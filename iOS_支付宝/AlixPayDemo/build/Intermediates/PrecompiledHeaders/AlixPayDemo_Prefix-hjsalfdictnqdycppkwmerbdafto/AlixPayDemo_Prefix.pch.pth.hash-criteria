@@ -1,0 +1,27 @@
+Contents of /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemo_Prefix.pch
+
+i386-apple-darwin12.4.0
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+-fexceptions
+-fasm-blocks
+-fstrict-aliasing
+-g
+-fvisibility=hidden
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-mios-simulator-version-min=3.0
+-iquote
+-iquote
+-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include
+-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities
+-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator
+SDK_PRODUCT_BUILD_VERSION=10B141

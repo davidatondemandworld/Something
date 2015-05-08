@@ -1,0 +1,512 @@
+TAlixPayDemo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist AlixPayDemo-Info.plist
+cCpResource icon.png Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png
+cCpResource icon@2x.png Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png
+cCompileXIB /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib
+cCompileXIB /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib
+cProcessPCH /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth AlixPayDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo normal i386
+cGenerateDSYMFile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo
+cTouch /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BE8FD80000000000000110
+t1371443160
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005171525B0000000000228FE0
+t1366381147
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005171525D00000000003DDFA0
+t1366381149
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005171525C00000000000015F7
+t1366381148
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000517152600000000000000E8D
+t1366381152
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000517152610000000000AB6230
+t1366381153
+s11231792
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/../libs/libalixpay.a
+c000000005153B624000000000007D8FC
+t1364440612
+s514300
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib
+c000000004E7C57EA0000000000005999
+t1316771818
+s22937
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemo_Prefix.pch
+c000000004EEEEA560000000000000169
+t1324280406
+s361
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemo.LinkFileList
+c0000000052204D400000000000000A66
+t1377848640
+s2662
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemoViewController.nib
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayIPadDemoViewController.nib
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/PkgInfo
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png
+t2
+s0
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m
+c000000005153B6E400000000000016DD
+t1364440804
+s5853
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m
+c000000005200507E000000000000249C
+t1375752318
+s9372
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib
+c000000004EEEE9A40000000000005977
+t1324280228
+s22903
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m
+c000000004E7C57EA0000000000000180
+t1316771818
+s384
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m
+c000000004E7C57EA0000000000000176
+t1316771818
+s374
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m
+c000000005153B73E000000000000013C
+t1364440894
+s316
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m
+c000000005153CE060000000000001658
+t1364446726
+s5720
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m
+c000000005153CDC00000000000000E33
+t1364446656
+s3635
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m
+c000000005153CE700000000000000A3C
+t1364446832
+s2620
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m
+c000000004E7C57EA00000000000015D8
+t1316771818
+s5592
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m
+c000000004E7C57EA00000000000016D2
+t1316771818
+s5842
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/icon.png
+c000000004E7C57EC0000000000001D7C
+t1316771820
+s7548
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/icon@2x.png
+c000000004E7C57EC00000000000039A2
+t1316771820
+s14754
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/libcrypto.a
+c000000005088F53000000000006FBD14
+t1351152944
+s7322900
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/libssl.a
+c000000005088F53000000000001391BC
+t1351152944
+s1282492
+
+N/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m
+c000000004EEEE8C80000000000000177
+t1324280008
+s375
+
+NAlixPayDemo-Info.plist
+c000000005204524A0000000000000923
+t1376014922
+s2339
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m
+r0
+
+CBuild AST from /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies00526bc084d0b741^3084a4c084d0b741^---0#1#0#--18"Check dependencies36"9667B2F6-32E5-497B-B810-64DE97D5F8AB-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.047027
+e399541442.159031
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection168"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.ma33f0cc284d0b741^36b128c284d0b741^---0#0#0#-19%DVTDocumentLocation2@254"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m0000000000000000^4869"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o Classes/AlixPayDemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoAppDelegate.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoAppDelegate.o"36"911E836A-778C-4788-9934-FA82F7B60FF4-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.046836
+e399541442.216044
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m23320cc284d0b741^516a37c284d0b741^---0#0#0#-19%DVTDocumentLocation2@257"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m0000000000000000^4887"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o Classes/AlixPayDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Classes/AlixPayDemoViewController.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemoViewController.o"36"2690727F-4D45-476F-957A-A2C835C0D8A8-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.217351
+e399541442.295298
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m57d137c284d0b741^57974bc284d0b741^---0#0#0#-19%DVTDocumentLocation2@244"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m0000000000000000^4801"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o Utilities/DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataSigner.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataSigner.o"36"EA70B953-F45F-4945-950D-E46621744A88-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.046881
+e399541442.137986
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m1c3f0cc284d0b741^f75723c284d0b741^---0#0#0#-19%DVTDocumentLocation2@246"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m0000000000000000^4813"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o Utilities/DataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/DataVerifier.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/DataVerifier.o"36"81564365-B231-45A7-80C1-01FB2E9ECC4F-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.162063
+e399541442.216104
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m26ac29c284d0b741^d26f37c284d0b741^---0#0#0#-19%DVTDocumentLocation2@251"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m0000000000000000^4827"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o Utilities/src/MD5DataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/MD5DataSigner.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/MD5DataSigner.o"36"4093E335-7FD9-4939-9C57-341E61D0FF34-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.202277
+e399541442.291696
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m580334c284d0b741^86ac4ac284d0b741^---0#0#0#-19%DVTDocumentLocation2@246"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m0000000000000000^4797"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o Utilities/src/NSDataEx.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/NSDataEx.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/NSDataEx.o"36"780E09F2-CCDA-4200-B7D7-800CF16ECD51-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.217345
+e399541442.303687
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m42d237c284d0b741^21c84dc284d0b741^---0#0#0#-19%DVTDocumentLocation2@251"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m0000000000000000^4827"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o Utilities/src/RSADataSigner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataSigner.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataSigner.o"36"90B66FAA-F8B1-4779-9421-0D7DEB0F78B6-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.046787
+e399541442.160677
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m573d0cc284d0b741^833229c284d0b741^---0#0#0#-19%DVTDocumentLocation2@253"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m0000000000000000^4839"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o Utilities/src/RSADataVerifier.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/RSADataVerifier.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/RSADataVerifier.o"36"01C0091B-E981-4F9A-8687-255338D0C2C1-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.160281
+e399541442.216081
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m583c29c284d0b741^766d37c284d0b741^---0#0#0#-19%DVTDocumentLocation2@244"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m0000000000000000^4785"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o Utilities/src/base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/base64.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/base64.o"36"9D061EE5-DFB3-415E-B200-51BFF43BE4BA-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.154567
+e399541442.200855
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.mefc527c284d0b741^836a33c284d0b741^---0#0#0#-19%DVTDocumentLocation2@228"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/main.m0000000000000000^4745"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/main.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/main.o"36"B079BAC5-B733-47B1-9AF3-CEEFBE9E6ECD-
+
+CCompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541442.217326
+e399541442.384081
+r1
+xCompileC
+xBuild/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Compile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.mafd037c284d0b741^0d5462c284d0b741^---0#0#0#-19%DVTDocumentLocation2@253"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m0000000000000000^4839"CompileC Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o Utilities/src/openssl_wrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -include "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.d" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/src/openssl_wrapper.m" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/openssl_wrapper.o"36"75122EF0-86AD-4683-9966-333D99342FEF-
+
+CCompileXIB /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib
+s399541440.661608
+e399541440.754448
+r1
+xCompileXIB
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Compiling /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib7c7da9c084d0b741^d7c1c1c084d0b741^---0#0#0#-19%DVTDocumentLocation2@251"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib0000000000000000^1190"CompileXIB AlixPayDemoViewController.xib    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemoViewController.nib" "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemoViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"2872AA89-09D0-4A56-BDE8-BF5C6067BA2F-
+
+CCompileXIB /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib
+s399541440.662393
+e399541441.476224
+r1
+xCompileXIB
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"Compiling /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xibc9ada9c084d0b741^6ce979c184d0b741^---0#0#0#-19%DVTDocumentLocation2@265"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib0000000000000000^1222"CompileXIB Utilities/AlixPayIPadDemoViewController.xib    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayIPadDemoViewController.nib" "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities/AlixPayIPadDemoViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"61503363-4AB2-4D89-AD25-0CEF60FEA87E-
+
+CCpResource icon.png Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png
+s399541440.661594
+e399541440.666360
+r1
+xCpResource
+xicon.png
+xBuild/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png5b79a9c084d0b741^7096aac084d0b741^---0#0#0#-19%DVTDocumentLocation2@283"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png000000000080d041^848"CpResource icon.png Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon.png    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/icon.png" "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app"36"31D55CFA-F1C4-4954-B91D-4EF588D96458-
+
+CCpResource icon@2x.png Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png
+s399541440.661599
+e399541440.664122
+r1
+xCpResource
+xicon@2x.png
+xBuild/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png357aa9c084d0b741^ab05aac084d0b741^---0#0#0#-19%DVTDocumentLocation2@286"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png000000000080d041^861"CpResource "icon@2x.png" "Build/Products/Debug-iphonesimulator/AlixPayDemo.app/icon@2x.png"    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/icon@2x.png" "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app"36"73C938C8-E6EC-48C0-9594-73AE9054F4D2-
+
+CGenerateDSYMFile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo
+s399541442.561708
+e399541442.621432
+r1
+xGenerateDSYMFile
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"Generate /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYMe8de8fc284d0b741^e8159fc284d0b741^---0#0#0#-19%DVTDocumentLocation2@279"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM000000000080d041^958"GenerateDSYMFile Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app.dSYM"36"3CF71C95-8A03-432D-BA18-77E5C3B4F620-
+
+CLd /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo normal i386
+s399541442.390884
+e399541442.554664
+r1
+xLd
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"Link /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo624a64c284d0b741^3b008ec284d0b741^---0#0#0#--1966"Ld Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo normal i386    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" "-L/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo" "-L/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/../libs" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" -filelist "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/Objects-normal/i386/AlixPayDemo.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -lcrypto -lssl -lalixpay -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/AlixPayDemo"36"84798D91-D6B9-469E-AB26-1CFBBCB2687C-
+
+CProcessInfoPlistFile /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist AlixPayDemo-Info.plist
+s399541440.649952
+e399541440.653394
+r1
+xProcessInfoPlistFile
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist
+xAlixPayDemo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process AlixPayDemo-Info.plistaf78a6c084d0b741^a25fa7c084d0b741^---0#0#0#-19%DVTDocumentLocation2@244"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/AlixPayDemo-Info.plist0000000000000000^954"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist AlixPayDemo-Info.plist    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AlixPayDemo-Info.plist -genpkginfo "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app/Info.plist"36"C097E4EF-045C-414E-A604-97E27237FD85-
+
+CProcessPCH /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth AlixPayDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399541441.484000
+e399541442.040368
+r1
+xProcessPCH
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth
+xAlixPayDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile AlixPayDemo_Prefix.pchd7147cc184d0b741^c1550ac284d0b741^---0#0#0#-19%DVTDocumentLocation2@244"file://localhost/Users/mac/Desktop/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%97%A0%E7%BA%BF%E6%94%AF%E4%BB%98/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E6%A1%A3%E5%8F%8Ademo/iOS(20130327)/AlixPayDemo/AlixPayDemo_Prefix.pch0000000000000000^4569"ProcessPCH Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth AlixPayDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.0 -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-generated-files.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-own-target-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-all-target-headers.hmap" -iquote "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/AlixPayDemo-project-headers.hmap" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/include" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Utilities" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources/i386" "-I/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/AlixPayDemo.build/Debug-iphonesimulator/AlixPayDemo.build/DerivedSources" "-F/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.dia" -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/AlixPayDemo_Prefix.pch" -o "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Intermediates/PrecompiledHeaders/AlixPayDemo_Prefix-hjsalfdictnqdycppkwmerbdafto/AlixPayDemo_Prefix.pch.d"36"3810CF56-1A5F-450B-9771-1B6908832F7E-
+
+CProcessPCH /Users/mac/Library/Developer/Xcode/DerivedData/AlixPayDemo-dejebkwhiavcbbhkgzumfzadfnpx/Index/PrecompiledHeaders/AlixPayDemo_Prefix-cndxxybjmakdkrfdryvzparqgzom_ast/AlixPayDemo_Prefix.pch.pth AlixPayDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app
+s399541442.629674
+e399541442.640681
+r1
+xTouch
+x/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"Touch /Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app984ca1c284d0b741^ac03a4c284d0b741^---0#0#0#--596"Touch Build/Products/Debug-iphonesimulator/AlixPayDemo.app    cd "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/mac/Desktop/支付宝无线支付/WS_SECURE_PAY/WS_SECURE_PAY(20130725)/客户端文档及demo/iOS(20130327)/AlixPayDemo/Build/Products/Debug-iphonesimulator/AlixPayDemo.app"36"2B2325E4-0E35-4751-8E10-766DCF0D85D4-
+
