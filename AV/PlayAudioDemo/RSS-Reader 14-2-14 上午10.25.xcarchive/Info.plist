@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/RSS-Reader.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.bourbon.location</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: ji rock (WNH4SRHEY2)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2014-02-14T02:25:49Z</date>
+	<key>Name</key>
+	<string>RSS-Reader</string>
+	<key>SchemeName</key>
+	<string>RSS-Reader</string>
+</dict>
+</plist>
