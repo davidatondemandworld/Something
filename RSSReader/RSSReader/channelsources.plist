@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>新浪</string>
+		<key>data_url</key>
+		<string>http://rss.sina.com.cn/sina_all_opml.xml</string>
+		<key>class_name</key>
+		<string>SinaChannelParser</string>
+		<key>site_url</key>
+		<string>http://rss.sina.com.cn</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string></string>
+		<key>name</key>
+		<string>网易</string>
+		<key>data_url</key>
+		<string>http://www.163.com/rss/</string>
+		<key>class_name</key>
+		<string></string>
+		<key>site_url</key>
+		<string>http://www.163.com/rss/</string>
+	</dict>
+</array>
+</plist>
