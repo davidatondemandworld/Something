@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  RSS-Reader
+
+  Created by bourbon on 14-2-13.
+  Copyright (c) 2014年 Bourbon. All rights reserved.
+*/
+"channel" = "频道";
+
+"yellow"  = "黄色";
+"red"     = "红色";
+"blue"    = "蓝色";
+"green"   = "绿色";
+"black"   = "黑色";
+
+"collect" = "收藏";
+"all"     = "全部";
+
+"periodical" = "订阅";
+
+"tips"    = "提示";
+"has collection" = "已收藏";
+"I know"  = "知道了";
+
+"reselect" = "已收藏，请重新选择";
+
+"channel resources" = "频道资源";
+
+"My Favorites" = "我的收藏";
+
+"warnning" = "警告";
+"retry"    = "请返回上层重试";
+"OK"       = "好的";
+
+"category" = "类目";
+
+"edit"     = "编辑";
+"done"     = "完成";
+"add categroy" = "增加类目";
+"enter name" = "请输入名称";
+
+"cannel"   = "取消";
+
+"Internationalization" = "国际化";
+"change color" = "改变颜色";
+"quit"     = "退出";
+
+"Change the language" = "更改语言";
+
+"Close"    = "关闭";
+"Save"     = "保存";
+
+"Setting"  = "设置";
+
+"Channel Setting" = "频道编辑";
+
+"click"    = "点击背景以登录";

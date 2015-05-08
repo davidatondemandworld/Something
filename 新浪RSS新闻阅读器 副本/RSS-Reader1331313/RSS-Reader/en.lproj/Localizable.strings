@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  RSS-Reader
+
+  Created by bourbon on 14-2-13.
+  Copyright (c) 2014年 Bourbon. All rights reserved.
+*/
+
+"channel" = "channel";
+
+"yellow"  = "yellow";
+"red"     = "red";
+"blue"    = "blue";
+"green"   = "green";
+"black"   = "black";
+
+"collect" = "collect";
+"all"     = "all";
+
+"periodical" = "periodical";
+
+"tips"    = "tips";
+"has collection" = "has collection";
+"I know"  = "I know";
+
+"reselect" = "Has collections, please re-select";
+
+"channel resources" = "channel resources";
+
+"My Favorites" = "My Favorites";
+
+"warnning" = "warnning";
+"retry"    = "Please return to the upper retry";
+"OK"       = "OK";
+
+"category" = "category";
+
+"edit"     = "edit";
+"done"     = "done";
+"add categroy" = "add categroy";
+"enter name" = "Please enter a name";
+
+"cannel"   = "cannel";
+
+"Internationalization" = "Internationalization";
+"change color" = "change color";
+"quit"     = "quit";
+
+"Change the language" = "Change the language";
+
+"Close"    = "Close";
+"Save"     = "Save";
+
+"Setting"  = "Setting";
+
+"Channel Setting" = "Channel Setting";
+
+"click"   = "click background to login";
