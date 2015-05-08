@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BB5701153041CC000C82BD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB5700153041CC000C82BD /* Cocoa.framework */; };
+		18BB570B153041CC000C82BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BB5709153041CC000C82BD /* InfoPlist.strings */; };
+		18BB570E153041CC000C82BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB570D153041CC000C82BD /* main.m */; };
+		18BB5711153041CC000C82BD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18BB570F153041CC000C82BD /* Credits.rtf */; };
+		18BB5714153041CC000C82BD /* TCPClient_MacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB5713153041CC000C82BD /* TCPClient_MacAppDelegate.m */; };
+		18BB5717153041CD000C82BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BB5715153041CD000C82BD /* MainMenu.xib */; };
+		18BB5720153041EB000C82BD /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB571E153041EB000C82BD /* MsgViewController.m */; };
+		18BB5721153041EB000C82BD /* MsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BB571F153041EB000C82BD /* MsgViewController.xib */; };
+		18BB57251530425D000C82BD /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB57231530425D000C82BD /* Connection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BB56FC153041CC000C82BD /* TCPClient-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCPClient-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB5700153041CC000C82BD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18BB5703153041CC000C82BD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18BB5704153041CC000C82BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18BB5705153041CC000C82BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BB5708153041CC000C82BD /* TCPClient-Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPClient-Mac-Info.plist"; sourceTree = "<group>"; };
+		18BB570A153041CC000C82BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BB570C153041CC000C82BD /* TCPClient-Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCPClient-Mac-Prefix.pch"; sourceTree = "<group>"; };
+		18BB570D153041CC000C82BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BB5710153041CC000C82BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		18BB5712153041CC000C82BD /* TCPClient_MacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClient_MacAppDelegate.h; sourceTree = "<group>"; };
+		18BB5713153041CC000C82BD /* TCPClient_MacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClient_MacAppDelegate.m; sourceTree = "<group>"; };
+		18BB5716153041CD000C82BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18BB571D153041EB000C82BD /* MsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		18BB571E153041EB000C82BD /* MsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		18BB571F153041EB000C82BD /* MsgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgViewController.xib; sourceTree = "<group>"; };
+		18BB57221530425D000C82BD /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		18BB57231530425D000C82BD /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		18BB57241530425D000C82BD /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BB56F9153041CC000C82BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB5701153041CC000C82BD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BB56F1153041CC000C82BD = {
+			isa = PBXGroup;
+			children = (
+				18BB5706153041CC000C82BD /* TCPClient-Mac */,
+				18BB56FF153041CC000C82BD /* Frameworks */,
+				18BB56FD153041CC000C82BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BB56FD153041CC000C82BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56FC153041CC000C82BD /* TCPClient-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BB56FF153041CC000C82BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BB5700153041CC000C82BD /* Cocoa.framework */,
+				18BB5702153041CC000C82BD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BB5702153041CC000C82BD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BB5703153041CC000C82BD /* AppKit.framework */,
+				18BB5704153041CC000C82BD /* CoreData.framework */,
+				18BB5705153041CC000C82BD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18BB5706153041CC000C82BD /* TCPClient-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				18BB57221530425D000C82BD /* Connection.h */,
+				18BB57231530425D000C82BD /* Connection.m */,
+				18BB57241530425D000C82BD /* ConnectionDelegate.h */,
+				18BB5712153041CC000C82BD /* TCPClient_MacAppDelegate.h */,
+				18BB5713153041CC000C82BD /* TCPClient_MacAppDelegate.m */,
+				18BB5715153041CD000C82BD /* MainMenu.xib */,
+				18BB5707153041CC000C82BD /* Supporting Files */,
+				18BB571D153041EB000C82BD /* MsgViewController.h */,
+				18BB571E153041EB000C82BD /* MsgViewController.m */,
+				18BB571F153041EB000C82BD /* MsgViewController.xib */,
+			);
+			path = "TCPClient-Mac";
+			sourceTree = "<group>";
+		};
+		18BB5707153041CC000C82BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BB5708153041CC000C82BD /* TCPClient-Mac-Info.plist */,
+				18BB5709153041CC000C82BD /* InfoPlist.strings */,
+				18BB570C153041CC000C82BD /* TCPClient-Mac-Prefix.pch */,
+				18BB570D153041CC000C82BD /* main.m */,
+				18BB570F153041CC000C82BD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BB56FB153041CC000C82BD /* TCPClient-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB571A153041CD000C82BD /* Build configuration list for PBXNativeTarget "TCPClient-Mac" */;
+			buildPhases = (
+				18BB56F8153041CC000C82BD /* Sources */,
+				18BB56F9153041CC000C82BD /* Frameworks */,
+				18BB56FA153041CC000C82BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCPClient-Mac";
+			productName = "TCPClient-Mac";
+			productReference = 18BB56FC153041CC000C82BD /* TCPClient-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BB56F3153041CC000C82BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 18BB56F6153041CC000C82BD /* Build configuration list for PBXProject "TCPClient-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18BB56F1153041CC000C82BD;
+			productRefGroup = 18BB56FD153041CC000C82BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BB56FB153041CC000C82BD /* TCPClient-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BB56FA153041CC000C82BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB570B153041CC000C82BD /* InfoPlist.strings in Resources */,
+				18BB5711153041CC000C82BD /* Credits.rtf in Resources */,
+				18BB5717153041CD000C82BD /* MainMenu.xib in Resources */,
+				18BB5721153041EB000C82BD /* MsgViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BB56F8153041CC000C82BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB570E153041CC000C82BD /* main.m in Sources */,
+				18BB5714153041CC000C82BD /* TCPClient_MacAppDelegate.m in Sources */,
+				18BB5720153041EB000C82BD /* MsgViewController.m in Sources */,
+				18BB57251530425D000C82BD /* Connection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BB5709153041CC000C82BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB570A153041CC000C82BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BB570F153041CC000C82BD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB5710153041CC000C82BD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		18BB5715153041CD000C82BD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB5716153041CD000C82BD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BB5718153041CD000C82BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18BB5719153041CD000C82BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18BB571B153041CD000C82BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient-Mac/TCPClient-Mac-Prefix.pch";
+				INFOPLIST_FILE = "TCPClient-Mac/TCPClient-Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18BB571C153041CD000C82BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient-Mac/TCPClient-Mac-Prefix.pch";
+				INFOPLIST_FILE = "TCPClient-Mac/TCPClient-Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BB56F6153041CC000C82BD /* Build configuration list for PBXProject "TCPClient-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB5718153041CD000C82BD /* Debug */,
+				18BB5719153041CD000C82BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB571A153041CD000C82BD /* Build configuration list for PBXNativeTarget "TCPClient-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB571B153041CD000C82BD /* Debug */,
+				18BB571C153041CD000C82BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BB56F3153041CC000C82BD /* Project object */;
+}

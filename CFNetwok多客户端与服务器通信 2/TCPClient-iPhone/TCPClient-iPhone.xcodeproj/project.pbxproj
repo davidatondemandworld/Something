@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1842C4B217F8159400BC0382 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1842C4B117F8159400BC0382 /* Default-568h@2x.png */; };
+		18BB56C5153028A7000C82BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB56C4153028A7000C82BD /* UIKit.framework */; };
+		18BB56C7153028A7000C82BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB56C6153028A7000C82BD /* Foundation.framework */; };
+		18BB56C9153028A7000C82BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB56C8153028A7000C82BD /* CoreGraphics.framework */; };
+		18BB56CF153028A7000C82BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BB56CD153028A7000C82BD /* InfoPlist.strings */; };
+		18BB56D2153028A7000C82BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB56D1153028A7000C82BD /* main.m */; };
+		18BB56D5153028A7000C82BD /* TCPClient_iPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB56D4153028A7000C82BD /* TCPClient_iPhoneAppDelegate.m */; };
+		18BB56D8153028A7000C82BD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BB56D6153028A7000C82BD /* MainWindow.xib */; };
+		18BB56E21530292B000C82BD /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB56E01530292B000C82BD /* Connection.m */; };
+		18BB56E715302962000C82BD /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB56E515302962000C82BD /* MsgViewController.m */; };
+		18BB56E815302962000C82BD /* MsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BB56E615302962000C82BD /* MsgViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1842C4B117F8159400BC0382 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		18BB56C0153028A7000C82BD /* TCPClient-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCPClient-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB56C4153028A7000C82BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18BB56C6153028A7000C82BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BB56C8153028A7000C82BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18BB56CC153028A7000C82BD /* TCPClient-iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPClient-iPhone-Info.plist"; sourceTree = "<group>"; };
+		18BB56CE153028A7000C82BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BB56D0153028A7000C82BD /* TCPClient-iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCPClient-iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		18BB56D1153028A7000C82BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BB56D3153028A7000C82BD /* TCPClient_iPhoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClient_iPhoneAppDelegate.h; sourceTree = "<group>"; };
+		18BB56D4153028A7000C82BD /* TCPClient_iPhoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClient_iPhoneAppDelegate.m; sourceTree = "<group>"; };
+		18BB56D7153028A7000C82BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18BB56DF1530292B000C82BD /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		18BB56E01530292B000C82BD /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		18BB56E11530292B000C82BD /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		18BB56E415302962000C82BD /* MsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		18BB56E515302962000C82BD /* MsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		18BB56E615302962000C82BD /* MsgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BB56BD153028A7000C82BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB56C5153028A7000C82BD /* UIKit.framework in Frameworks */,
+				18BB56C7153028A7000C82BD /* Foundation.framework in Frameworks */,
+				18BB56C9153028A7000C82BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BB56B5153028A7000C82BD = {
+			isa = PBXGroup;
+			children = (
+				18BB56E31530293A000C82BD /* UI */,
+				18BB56DE15302917000C82BD /* Network */,
+				18BB56CA153028A7000C82BD /* TCPClient-iPhone */,
+				18BB56C3153028A7000C82BD /* Frameworks */,
+				18BB56C1153028A7000C82BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BB56C1153028A7000C82BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56C0153028A7000C82BD /* TCPClient-iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BB56C3153028A7000C82BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56C4153028A7000C82BD /* UIKit.framework */,
+				18BB56C6153028A7000C82BD /* Foundation.framework */,
+				18BB56C8153028A7000C82BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BB56CA153028A7000C82BD /* TCPClient-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56D3153028A7000C82BD /* TCPClient_iPhoneAppDelegate.h */,
+				18BB56D4153028A7000C82BD /* TCPClient_iPhoneAppDelegate.m */,
+				18BB56D6153028A7000C82BD /* MainWindow.xib */,
+				18BB56CB153028A7000C82BD /* Supporting Files */,
+			);
+			path = "TCPClient-iPhone";
+			sourceTree = "<group>";
+		};
+		18BB56CB153028A7000C82BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56CC153028A7000C82BD /* TCPClient-iPhone-Info.plist */,
+				1842C4B117F8159400BC0382 /* Default-568h@2x.png */,
+				18BB56CD153028A7000C82BD /* InfoPlist.strings */,
+				18BB56D0153028A7000C82BD /* TCPClient-iPhone-Prefix.pch */,
+				18BB56D1153028A7000C82BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BB56DE15302917000C82BD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56DF1530292B000C82BD /* Connection.h */,
+				18BB56E01530292B000C82BD /* Connection.m */,
+				18BB56E11530292B000C82BD /* ConnectionDelegate.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		18BB56E31530293A000C82BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18BB56E415302962000C82BD /* MsgViewController.h */,
+				18BB56E515302962000C82BD /* MsgViewController.m */,
+				18BB56E615302962000C82BD /* MsgViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BB56BF153028A7000C82BD /* TCPClient-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB56DB153028A7000C82BD /* Build configuration list for PBXNativeTarget "TCPClient-iPhone" */;
+			buildPhases = (
+				18BB56BC153028A7000C82BD /* Sources */,
+				18BB56BD153028A7000C82BD /* Frameworks */,
+				18BB56BE153028A7000C82BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCPClient-iPhone";
+			productName = "TCPClient-iPhone";
+			productReference = 18BB56C0153028A7000C82BD /* TCPClient-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BB56B7153028A7000C82BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 18BB56BA153028A7000C82BD /* Build configuration list for PBXProject "TCPClient-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18BB56B5153028A7000C82BD;
+			productRefGroup = 18BB56C1153028A7000C82BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BB56BF153028A7000C82BD /* TCPClient-iPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BB56BE153028A7000C82BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB56CF153028A7000C82BD /* InfoPlist.strings in Resources */,
+				18BB56D8153028A7000C82BD /* MainWindow.xib in Resources */,
+				18BB56E815302962000C82BD /* MsgViewController.xib in Resources */,
+				1842C4B217F8159400BC0382 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BB56BC153028A7000C82BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB56D2153028A7000C82BD /* main.m in Sources */,
+				18BB56D5153028A7000C82BD /* TCPClient_iPhoneAppDelegate.m in Sources */,
+				18BB56E21530292B000C82BD /* Connection.m in Sources */,
+				18BB56E715302962000C82BD /* MsgViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BB56CD153028A7000C82BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB56CE153028A7000C82BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BB56D6153028A7000C82BD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB56D7153028A7000C82BD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BB56D9153028A7000C82BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BB56DA153028A7000C82BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18BB56DC153028A7000C82BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient-iPhone/TCPClient-iPhone-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TCPClient-iPhone/TCPClient-iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18BB56DD153028A7000C82BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient-iPhone/TCPClient-iPhone-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TCPClient-iPhone/TCPClient-iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BB56BA153028A7000C82BD /* Build configuration list for PBXProject "TCPClient-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB56D9153028A7000C82BD /* Debug */,
+				18BB56DA153028A7000C82BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB56DB153028A7000C82BD /* Build configuration list for PBXNativeTarget "TCPClient-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB56DC153028A7000C82BD /* Debug */,
+				18BB56DD153028A7000C82BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BB56B7153028A7000C82BD /* Project object */;
+}
