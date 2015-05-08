@@ -1,0 +1,213 @@
+{\rtf1\ansi\ansicpg936\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19980\viewh12760\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Last login: Wed Aug 28 02:00:04 on console\
+teacher:~ andytung$ sqlite3 cd /Users/andytung/Desktop/db \
+Error: near "/": syntax error\
+teacher:~ andytung$ cd /Users/andytung/Desktop/db \
+teacher:db andytung$ sqlite3 test.sqlite\
+SQLite version 3.7.7 2011-06-25 16:35:41\
+Enter ".help" for instructions\
+Enter SQL statements terminated with a ";"\
+sqlite> .help\
+.backup ?DB? FILE      Backup DB (default "main") to FILE\
+.bail ON|OFF           Stop after hitting an error.  Default OFF\
+.databases             List names and files of attached databases\
+.dump ?TABLE? ...      Dump the database in an SQL text format\
+                         If TABLE specified, only dump tables matching\
+                         LIKE pattern TABLE.\
+.echo ON|OFF           Turn command echo on or off\
+.exit                  Exit this program\
+.explain ?ON|OFF?      Turn output mode suitable for EXPLAIN on or off.\
+                         With no args, it turns EXPLAIN on.\
+.header(s) ON|OFF      Turn display of headers on or off\
+.help                  Show this message\
+.import FILE TABLE     Import data from FILE into TABLE\
+.indices ?TABLE?       Show names of all indices\
+                         If TABLE specified, only show indices for tables\
+                         matching LIKE pattern TABLE.\
+.log FILE|off          Turn logging on or off.  FILE can be stderr/stdout\
+.mode MODE ?TABLE?     Set output mode where MODE is one of:\
+                         csv      Comma-separated values\
+                         column   Left-aligned columns.  (See .width)\
+                         html     HTML <table> code\
+                         insert   SQL insert statements for TABLE\
+                         line     One value per line\
+                         list     Values delimited by .separator string\
+                         tabs     Tab-separated values\
+                         tcl      TCL list elements\
+.nullvalue STRING      Print STRING in place of NULL values\
+.output FILENAME       Send output to FILENAME\
+.output stdout         Send output to the screen\
+.prompt MAIN CONTINUE  Replace the standard prompts\
+.quit                  Exit this program\
+.read FILENAME         Execute SQL in FILENAME\
+.restore ?DB? FILE     Restore content of DB (default "main") from FILE\
+.schema ?TABLE?        Show the CREATE statements\
+                         If TABLE specified, only show tables matching\
+                         LIKE pattern TABLE.\
+.separator STRING      Change separator used by output mode and .import\
+.show                  Show the current values for various settings\
+.stats ON|OFF          Turn stats on or off\
+.tables ?TABLE?        List names of tables\
+                         If TABLE specified, only list tables matching\
+                         LIKE pattern TABLE.\
+.timeout MS            Try opening locked tables for MS milliseconds\
+.width NUM1 NUM2 ...   Set column widths for "column" mode\
+.timer ON|OFF          Turn the CPU timer measurement on or off\
+sqlite> CREATE TABLE Category(ID integer primary key,Name text not null);\
+sqlite> .tables\
+Category\
+sqlite> .schema Category\
+CREATE TABLE Category(ID integer primary key,Name text not null);\
+sqlite> CREATE TABLE Product(ID integer primary key autoincrement,\
+   ...> name text not null,\
+   ...> price real,\
+   ...> categoryId integer);\
+sqlite> .tables\
+Category  Product \
+sqlite> INSERT INTO Category VALUES(1,'iPhone');\
+sqlite> INSERT INTO Category(Name,ID)VALUES('iPad',2);\
+sqlite> SELECT * FROM Category;\
+1|iPhone\
+2|iPad\
+sqlite> .headers on\
+sqlite> SELECT * FROM Category;\
+ID|Name\
+1|iPhone\
+2|iPad\
+sqlite> .mode column\
+sqlite> SELECT * FROM Category;\
+ID          Name      \
+----------  ----------\
+1           iPhone    \
+2           iPad      \
+sqlite> UPDATE Category SET Name='iPad2' WHERE ID=2;\
+sqlite> SELECT * FROM Category;\
+ID          Name      \
+----------  ----------\
+1           iPhone    \
+2           iPad2     \
+sqlite> DELETE FROM Category WHERE ID=2;\
+sqlite> SELECT * FROM Category;\
+ID          Name      \
+----------  ----------\
+1           iPhone    \
+sqlite> INSERT INTO Category(Name,ID)VALUES('iPad',2);\
+sqlite> SELECT * FROM Category;\
+ID          Name      \
+----------  ----------\
+1           iPhone    \
+2           iPad      \
+sqlite> INSERT INTO Product(Name,Price,CategoryId) VALUES('iPhone4',2888,1); \
+sqlite> INSERT INTO Product(Name,Price,CategoryId) VALUES('iPhone5',4888,1); \
+sqlite> INSERT INTO Product(Name,Price,CategoryId) VALUES('iPhone4s',3888,1);\
+sqlite> INSERT INTO Product(Name,Price,CategoryId) VALUES('iPad2',2998,2);sqlite> INSERT INTO Product(Name,Price,CategoryId) VALUES('iPad1',1998,2);\
+sqlite> SELECT * FROM Product;\
+ID          name        price       categoryId\
+----------  ----------  ----------  ----------\
+1           iPhone4     2888.0      1         \
+2           iPhone5     4888.0      1         \
+3           iPhone4s    3888.0      1         \
+4           iPad2       2998.0      2         \
+5           iPad1       1998.0      2         \
+sqlite> SELECT name,price FROM Product;\
+name        price     \
+----------  ----------\
+iPhone4     2888.0    \
+iPhone5     4888.0    \
+iPhone4s    3888.0    \
+iPad2       2998.0    \
+iPad1       1998.0    \
+sqlite> SELECT name,price FROM Product WHERE categoryId=1;\
+name        price     \
+----------  ----------\
+iPhone4     2888.0    \
+iPhone5     4888.0    \
+iPhone4s    3888.0    \
+sqlite> SELECT name,price FROM Product WHERE categoryId=1 AND price>3000;\
+name        price     \
+----------  ----------\
+iPhone5     4888.0    \
+iPhone4s    3888.0    \
+sqlite> SELECT name,price FROM Product WHERE categoryId=1 OR name='iPad2';\
+name        price     \
+----------  ----------\
+iPhone4     2888.0    \
+iPhone5     4888.0    \
+iPhone4s    3888.0    \
+iPad2       2998.0    \
+sqlite> SELECT name,price FROM Product WHERE categoryId=1 OR name='iPad2' ORDER BY price;\
+name        price     \
+----------  ----------\
+iPhone4     2888.0    \
+iPad2       2998.0    \
+iPhone4s    3888.0    \
+iPhone5     4888.0    \
+sqlite> SELECT name,price FROM Product WHERE categoryId=1 OR name='iPad2' ORDER BY price DESC;\
+name        price     \
+----------  ----------\
+iPhone5     4888.0    \
+iPhone4s    3888.0    \
+iPad2       2998.0    \
+iPhone4     2888.0    \
+sqlite> SELECT * FROM Product WHERE categoryId=1 OR name='iPad2' ORDER BY price DESC;\
+ID          name        price       categoryId\
+----------  ----------  ----------  ----------\
+2           iPhone5     4888.0      1         \
+3           iPhone4s    3888.0      1         \
+4           iPad2       2998.0      2         \
+1           iPhone4     2888.0      1         \
+sqlite> SELECT * FROM Product INNER JOIN Category ON Product.categoryId=Category.ID;\
+ID          name        price       categoryId  ID          Name      \
+----------  ----------  ----------  ----------  ----------  ----------\
+1           iPhone4     2888.0      1           1           iPhone    \
+2           iPhone5     4888.0      1           1           iPhone    \
+3           iPhone4s    3888.0      1           1           iPhone    \
+4           iPad2       2998.0      2           2           iPad      \
+5           iPad1       1998.0      2           2           iPad      \
+sqlite> SELECT Product.*,Category.Name FROM Product INNER JOIN Category ON Product.categoryId=Category.ID;\
+ID          name        price       categoryId  Name      \
+----------  ----------  ----------  ----------  ----------\
+1           iPhone4     2888.0      1           iPhone    \
+2           iPhone5     4888.0      1           iPhone    \
+3           iPhone4s    3888.0      1           iPhone    \
+4           iPad2       2998.0      2           iPad      \
+5           iPad1       1998.0      2           iPad      \
+sqlite> SELECT Product.*,Category.Name FROM Product INNER JOIN Category ON Product.categoryId=Category.ID WHERE Category.Name='iPhone';\
+ID          name        price       categoryId  Name      \
+----------  ----------  ----------  ----------  ----------\
+1           iPhone4     2888.0      1           iPhone    \
+2           iPhone5     4888.0      1           iPhone    \
+3           iPhone4s    3888.0      1           iPhone    \
+sqlite> SELECT Product.*,Category.Name FROM Product INNER JOIN Category ON Product.categoryId=Category.ID WHERE Category.Name='iPhone' ORDER BY price DESC;\
+ID          name        price       categoryId  Name      \
+----------  ----------  ----------  ----------  ----------\
+2           iPhone5     4888.0      1           iPhone    \
+3           iPhone4s    3888.0      1           iPhone    \
+1           iPhone4     2888.0      1           iPhone    \
+sqlite> SELECT * FROM Product;ID          name        price       categoryId----------  ----------  ----------  ----------\
+1           iPhone4     2888.0      1         \
+2           iPhone5     4888.0      1         \
+3           iPhone4s    3888.0      1         \
+4           iPad2       2998.0      2         \
+5           iPad1       1998.0      2         \
+sqlite> SELECT CategoryId FROM Product GROUP BY categoryId;\
+categoryId\
+----------\
+1         \
+2         \
+sqlite> SELECT CategoryId,COUNT(ID),AVG(price) FROM Product GROUP BY categoryId;\
+categoryId  COUNT(ID)   AVG(price)\
+----------  ----------  ----------\
+1           3           3888.0    \
+2           2           2498.0    \
+sqlite> select date('now');\
+date('now')\
+-----------\
+2013-08-27 \
+sqlite> \
+}
