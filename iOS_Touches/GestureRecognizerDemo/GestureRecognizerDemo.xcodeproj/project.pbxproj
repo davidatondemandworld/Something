@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189800C3153D030200181009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189800C2153D030200181009 /* UIKit.framework */; };
+		189800C5153D030200181009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189800C4153D030200181009 /* Foundation.framework */; };
+		189800C7153D030200181009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189800C6153D030200181009 /* CoreGraphics.framework */; };
+		189800CD153D030200181009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189800CB153D030200181009 /* InfoPlist.strings */; };
+		189800D0153D030200181009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189800CF153D030200181009 /* main.m */; };
+		189800D3153D030200181009 /* GestureRecognizerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189800D2153D030200181009 /* GestureRecognizerDemoAppDelegate.m */; };
+		189800D6153D030200181009 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189800D4153D030200181009 /* MainWindow.xib */; };
+		189800D9153D030200181009 /* GestureRecognizerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189800D8153D030200181009 /* GestureRecognizerDemoViewController.m */; };
+		189800DC153D030300181009 /* GestureRecognizerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189800DA153D030200181009 /* GestureRecognizerDemoViewController.xib */; };
+		189800E4153D080300181009 /* MySwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189800E3153D080300181009 /* MySwipeGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		189800BE153D030200181009 /* GestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189800C2153D030200181009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		189800C4153D030200181009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		189800C6153D030200181009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		189800CA153D030200181009 /* GestureRecognizerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureRecognizerDemo-Info.plist"; sourceTree = "<group>"; };
+		189800CC153D030200181009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		189800CE153D030200181009 /* GestureRecognizerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureRecognizerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		189800CF153D030200181009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189800D1153D030200181009 /* GestureRecognizerDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerDemoAppDelegate.h; sourceTree = "<group>"; };
+		189800D2153D030200181009 /* GestureRecognizerDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerDemoAppDelegate.m; sourceTree = "<group>"; };
+		189800D5153D030200181009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		189800D7153D030200181009 /* GestureRecognizerDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerDemoViewController.h; sourceTree = "<group>"; };
+		189800D8153D030200181009 /* GestureRecognizerDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerDemoViewController.m; sourceTree = "<group>"; };
+		189800DB153D030300181009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GestureRecognizerDemoViewController.xib; sourceTree = "<group>"; };
+		189800E2153D080300181009 /* MySwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		189800E3153D080300181009 /* MySwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySwipeGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189800BB153D030200181009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189800C3153D030200181009 /* UIKit.framework in Frameworks */,
+				189800C5153D030200181009 /* Foundation.framework in Frameworks */,
+				189800C7153D030200181009 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189800B3153D030200181009 = {
+			isa = PBXGroup;
+			children = (
+				189800C8153D030200181009 /* GestureRecognizerDemo */,
+				189800C1153D030200181009 /* Frameworks */,
+				189800BF153D030200181009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189800BF153D030200181009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189800BE153D030200181009 /* GestureRecognizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189800C1153D030200181009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189800C2153D030200181009 /* UIKit.framework */,
+				189800C4153D030200181009 /* Foundation.framework */,
+				189800C6153D030200181009 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		189800C8153D030200181009 /* GestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				189800E2153D080300181009 /* MySwipeGestureRecognizer.h */,
+				189800E3153D080300181009 /* MySwipeGestureRecognizer.m */,
+				189800D1153D030200181009 /* GestureRecognizerDemoAppDelegate.h */,
+				189800D2153D030200181009 /* GestureRecognizerDemoAppDelegate.m */,
+				189800D4153D030200181009 /* MainWindow.xib */,
+				189800D7153D030200181009 /* GestureRecognizerDemoViewController.h */,
+				189800D8153D030200181009 /* GestureRecognizerDemoViewController.m */,
+				189800DA153D030200181009 /* GestureRecognizerDemoViewController.xib */,
+				189800C9153D030200181009 /* Supporting Files */,
+			);
+			path = GestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		189800C9153D030200181009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189800CA153D030200181009 /* GestureRecognizerDemo-Info.plist */,
+				189800CB153D030200181009 /* InfoPlist.strings */,
+				189800CE153D030200181009 /* GestureRecognizerDemo-Prefix.pch */,
+				189800CF153D030200181009 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189800BD153D030200181009 /* GestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189800DF153D030300181009 /* Build configuration list for PBXNativeTarget "GestureRecognizerDemo" */;
+			buildPhases = (
+				189800BA153D030200181009 /* Sources */,
+				189800BB153D030200181009 /* Frameworks */,
+				189800BC153D030200181009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognizerDemo;
+			productName = GestureRecognizerDemo;
+			productReference = 189800BE153D030200181009 /* GestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189800B5153D030200181009 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 189800B8153D030200181009 /* Build configuration list for PBXProject "GestureRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 189800B3153D030200181009;
+			productRefGroup = 189800BF153D030200181009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189800BD153D030200181009 /* GestureRecognizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189800BC153D030200181009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189800CD153D030200181009 /* InfoPlist.strings in Resources */,
+				189800D6153D030200181009 /* MainWindow.xib in Resources */,
+				189800DC153D030300181009 /* GestureRecognizerDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189800BA153D030200181009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189800D0153D030200181009 /* main.m in Sources */,
+				189800D3153D030200181009 /* GestureRecognizerDemoAppDelegate.m in Sources */,
+				189800D9153D030200181009 /* GestureRecognizerDemoViewController.m in Sources */,
+				189800E4153D080300181009 /* MySwipeGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189800CB153D030200181009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189800CC153D030200181009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189800D4153D030200181009 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189800D5153D030200181009 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		189800DA153D030200181009 /* GestureRecognizerDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189800DB153D030300181009 /* en */,
+			);
+			name = GestureRecognizerDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189800DD153D030300181009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189800DE153D030300181009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		189800E0153D030300181009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerDemo/GestureRecognizerDemo-Prefix.pch";
+				INFOPLIST_FILE = "GestureRecognizerDemo/GestureRecognizerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		189800E1153D030300181009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureRecognizerDemo/GestureRecognizerDemo-Prefix.pch";
+				INFOPLIST_FILE = "GestureRecognizerDemo/GestureRecognizerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189800B8153D030200181009 /* Build configuration list for PBXProject "GestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189800DD153D030300181009 /* Debug */,
+				189800DE153D030300181009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189800DF153D030300181009 /* Build configuration list for PBXNativeTarget "GestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189800E0153D030300181009 /* Debug */,
+				189800E1153D030300181009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189800B5153D030200181009 /* Project object */;
+}
